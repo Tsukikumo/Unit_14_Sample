@@ -26,8 +26,8 @@ public class Frame extends JFrame implements ActionListener, ItemListener{
 
     JLabel userGuestQuery = new JLabel("Please enter number of guests"); //this label prompts the user for guest count
     JTextField guestInputField = new JTextField(4); //guest text field
-    JLabel userEntryQuery = new JLabel("Please select an entree: "); //prompts user for entree choice
     JButton guestSubmitButton = new JButton("Submit"); //submit button
+    JLabel userEntryQuery = new JLabel("Please select an entree: "); //prompts user for entree choice
     JComboBox entreeChoice = new JComboBox(entreeOptions); //entree drop down
     JLabel userSideDishQuery = new JLabel("Please select two side dishes: "); //prompts user to select two side dishes
     JCheckBox corn = new JCheckBox("Corn", false); //corn side dish box
